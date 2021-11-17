@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .ui.header{
+    background: rgb(16, 168, 214);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .ui.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+  }
+  .ui.form{
+    position: absolute;
+    width: 500px;
+    
+  }
+  .ui.header .logo{
+    width: 250px;
+    height: 80px;
+  }
+  .ui.header h1{
+    color: white;
+  }
+  
+  
+  

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMTEC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+</head>
+<body>
+    <div class="ui header">
+        <img class="logo" alt="logo" src="logo.png"></img>
+        <h1>Student Registration</h1>
+        </div>
+        <div class="ui main">
+            <form class="ui form" >
+                <div class="field">
+                    <label>Name</label>
+                    <input type="text"  placeholder="Full Name" required
+                    
+                    ></input><br></br>
+                    </div>
+                    <div class="field">
+                    <label>Father Name</label>
+                    <input type="text"  placeholder="Father Name" required
+                    
+                    ></input>
+                    </div>
+                    <div class="field">
+                    <label>Mother Name</label>
+                    <input type="text"  placeholder="Mother Name" required
+                    
+                    ></input><br></br>
+                    </div>
+                    <div class="field">
+                    <label>Gender</label>
+                    <input type="radio" value="Male" name="gender" /> Male
+                    <input type="radio" value="Female" name="gender" /> Female
+                    </div>
+                    <div class="field">
+                    <label>Phone No</label>
+                    <input type="number" defaultValue="+91" placeholder="Roll Number" class="ui field"></input><br></br>
+                    </div>
+                    <div class="field">
+                    <label>Email</label>
+                    <input type="email"  placeholder="yourid@mtec.ac.in"></input><br></br>
+                    </div>
+                    <div class="field">
+                        <label>DOB</label>
+                        <input type="date"></input>
+                        </div>
+                        <div class="field">
+                    <label>Blood Group</label>
+                    <input type="text"  placeholder="Blood Group"></input><br></br>
+                    </div>
+                    <div class="field">
+                    <label>Department</label>
+                    <select id="dept" name="Department">
+  <option value="CSE">CSE</option>
+  <option value="MECH">MECH</option>
+  <option value="EEE">EEE</option>
+  <option value="EC">EC</option>
+  <option value="CIVIL">CIVIL</option>
+</select><br></br></div>
+
+<div class="field">
+                    <label>Address</label>
+                    <textarea type="text"  placeholder="Address"></textarea><br></br>
+                    </div>
+<button class="ui button blue" type="submit"
+onClick={this.handleSubmit}
+>submit</button>
+            </form>
+        </div>
+</body>
+</html>
